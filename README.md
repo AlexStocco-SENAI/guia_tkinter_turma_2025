@@ -49,6 +49,7 @@ label_aviso = tk.Label(janela, text="Preencha os campos abaixo.")
 label_aviso.pack()
 
 janela.mainloop()
+```
 
 ### Button: Ações e Interatividade
 O `Button` permite que o usuário dispare uma ação ao clicar.
