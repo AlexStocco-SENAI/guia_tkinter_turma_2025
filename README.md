@@ -25,6 +25,7 @@ label.pack() # "Empacota" o widget na janela para que ele apareça
 
 # 4. Iniciar o loop da aplicação
 janela.mainloop()
+```
 
 ## 🧩 Widgets Essenciais: As Peças do Quebra-Cabeça
 
@@ -70,6 +71,7 @@ botao = tk.Button(janela, text="Clique em Mim!", command=acao_do_botao)
 botao.pack(pady=20, padx=20)
 
 janela.mainloop()
+```
 
 ### Entry: Coletando Informações
 O `Entry` é um campo para o usuário digitar uma única linha de texto.
@@ -101,4 +103,4 @@ label_resultado = tk.Label(janela, text="")
 label_resultado.pack()
 
 janela.mainloop()
-
+```
